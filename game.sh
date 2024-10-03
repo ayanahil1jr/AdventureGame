@@ -1,8 +1,10 @@
 #!/bin/bash
+clear
 echo "Welcome to the Ultimate Adventure Game!"
-echo "Choose a location to eplore: forest, castle, or cave."
+echo "Choose a location to explore: forest, castle, or cave."
 read location
-	if ["$location" == "forest" ]; then
+clear
+	if [ "$location" == "forest" ]; then
 		cat forest.txt
 	elif [ "$location" == "castle" ]; then
 		cat castle.txt
